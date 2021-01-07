@@ -16,13 +16,14 @@ h1 {
   font-size: 100px;
   font-weight: bold;
 }
-input {
+#text1 {
   padding: 70px 100px 50px 50px;
+  font-size: 3vw;
   width: 500px;
   height: 200px;
   box-shadow: 0.5px 0.5px 0.5px 0.5px
 }
-#button {
+#addButton {
   background-color: #cc1d1d;
   color: white;
   padding: 20px 70px;
