@@ -1,12 +1,19 @@
 extends layout
 
 block content
-  h1 Notes
 
-  <input id="text1">
-  br
-  br
-  input(type="submit", value="Spara", id="addButton")
+  h1 Loggbok
+    br
+    br
+    input(type="text", id="title", placeholder="TITLE")
+
+    br
+    br
+    textarea(type="text", id="description", placeholder="...")
+    
+  p(type="submit", id="addButton", value="Spara",)
   br
   br
   a(href= "/summary", id= "button1") Återblick
+
+  script(src="/javascripts/add.js")

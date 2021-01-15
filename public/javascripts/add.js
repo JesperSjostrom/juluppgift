@@ -1,15 +1,15 @@
-document.querySelector("form").addEventListener("submit", e => {
+document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
 
-url ='https://api.airtable.com/v0/app21K5M0hyi8ln3Y/Table%201';
+url ='https://api.airtable.com/v0/appw9OO3eoSUmoKdt/Receipt%20Log';
 
-var name = document.getElementById("addName").value;
-var description = document.getElementById("addDescription").value;
+var title = document.getElementById("title").value;
+var description = document.getElementById("description").value;
 
 const addData = {
     "fields":{
-        "Name": name,
-        "Description": description,
+        "title": title,
+        "description": description,
     }
 }
 
