@@ -1,7 +1,7 @@
 document.querySelector("p").addEventListener("click", e => {
     e.preventDefault();
 
-url ='https://api.airtable.com/v0/appw9OO3eoSUmoKdt/Receipt%20Log';
+url ='https://api.airtable.com/v0/app21K5M0hyi8ln3Y/Table%201';
 
 var title = document.getElementById("title").value;
 var description = document.getElementById("description").value;
